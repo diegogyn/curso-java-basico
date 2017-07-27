@@ -9,9 +9,9 @@ public class Exercicio6 {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Digite o raio do circulo em CM: ");
-		float raio = scan.nextFloat();
+		double raio = scan.nextDouble();
 		
-		double areaCirculo =  Math.PI * (raio * raio);
+		double areaCirculo =  Math.PI * Math.pow(raio, 2);
 		System.out.println("\nO valor da área em centimetros é: " + areaCirculo + "cm");
 		
 	}

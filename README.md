@@ -6,3 +6,5 @@ Aulas:
 http://loiane.training/
 
 IDE Eclipse Oxygen
+
+* Aprendendo Java e Git.
